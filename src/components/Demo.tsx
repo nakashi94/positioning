@@ -10,12 +10,13 @@ export class Demo extends Component {
   render() {
     return (
       <Stage width={window.innerWidth} height={window.innerHeight}>
+        {/* <Stage width={300} height={600}> */}
         <Layer>
           <Rect
             x={20}
             y={50}
-            width={60}
-            height={60}
+            width={40}
+            height={40}
             draggable
             fill="red"
             shadowBlur={10}
@@ -33,10 +34,10 @@ export class Demo extends Component {
             }}
           />
           <Rect
-            x={360}
+            x={240}
             y={50}
-            width={60}
-            height={60}
+            width={40}
+            height={40}
             draggable
             fill="red"
             shadowBlur={10}
@@ -55,9 +56,9 @@ export class Demo extends Component {
           />
           <Rect
             x={20}
-            y={600}
-            width={60}
-            height={60}
+            y={400}
+            width={40}
+            height={40}
             draggable
             fill="red"
             shadowBlur={10}
@@ -75,10 +76,10 @@ export class Demo extends Component {
             }}
           />
           <Rect
-            x={360}
-            y={600}
-            width={60}
-            height={60}
+            x={240}
+            y={400}
+            width={40}
+            height={40}
             draggable
             fill="red"
             shadowBlur={10}
@@ -98,7 +99,7 @@ export class Demo extends Component {
           <Circle
             x={200}
             y={100}
-            radius={20}
+            radius={12}
             draggable
             fill="white"
             shadowBlur={10}

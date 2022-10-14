@@ -10,7 +10,6 @@ export class Demo extends Component {
   render() {
     return (
       <Stage width={window.innerWidth} height={window.innerHeight}>
-        {/* <Stage width={300} height={600}> */}
         <Layer>
           <Rect
             x={20}
